@@ -12,7 +12,7 @@ https://github.com/Ghabaei-Behzad/contact-form.git
 The creation of repositories contain a helpful way to push my js file from git. The commands I used were
 npx create-react-app contact-form
 cd contact-form
-npm start
+npm start.
 the . code command opens the files in my VS Code editor. Learning about event handlers and useState hooks in React, and how to code forms in the return block.
 
 ## What I added to the ContactForm.js file.
