@@ -1,3 +1,44 @@
+// Behzad Ghabaei
+// CS 81 - Javascript
+// Assignment 11A - ContactForm.js - App.js
+// Readme.md
+// Instructor Seno
+// Feb. 10, 2026
+
+## url address
+
+## What I learned
+The creation of repositories contain a helpful way to push my js file from git. The commands I used were
+npx create-react-app contact-form
+cd contact-form
+npm start
+the . code command opens the files in my VS Code editor. Learning about event handlers and useState hooks in React, and how to code forms in the return block.
+
+## What I added to the ContactForm.js file.
+I learned how to add a phone number input box, and use regex validation to limit 10 numbers. The symbol:
+ /^\d{10}$/ means,
+/ ... / inside is a Regex pattern. ^ Start at the very beginning of the text. \d digit, only allows numbers 0-9.
+{10} the quantifier, exactly 10. $ End of the text.
+In the ContactForm.js file the phone was added in useState. Here is our code:
+const [formData, setFormData] = useState({ name: '', email: '', phone: '', message: '' });
+In the validate() function validation is made with an if statement, 
+if (!formData.phone.trim()) {
+newErrors.phone = 'Phone number is required';
+when I run phoneRegex.test(formData.phone), it returns
+true if the user typed 10 digits, false if the user typed dashes or shorter number sequences.
+The handleSubmit function triggers the JSON block when setSubmittedData is satisfied.
+In the return block, phone number's placeholder is 1234567890. We see it in the UI phone input box. The value={formData.phone} 
+and the onChange={handleChange}, receive the data, and errors are styled as red messages from errors.phone.
+
+## Any ideas developed
+I think that the button event handler could be used to make a tic tac toe game, which is in a React tutorial.  But, I think a personal budget tracker is really simple and lets me add up expenses with local storage which makes me interested in trying it out.
+
+## screenshot
+<img width="1362" height="685" alt="Assign11A" src="https://github.com/user-attachments/assets/cb62df58-3a57-4cde-9ea6-9f642b34a8a5" />
+
+
+## This is from the React Code-----------------------------------
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
