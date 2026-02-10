@@ -13,7 +13,7 @@ The creation of repositories contain a helpful way to push my js file from git. 
 npx create-react-app contact-form
 cd contact-form
 npm start.
-the . code command opens the files in my VS Code editor. Learning about event handlers and useState hooks in React, and how to code forms in the return block.
+The . code command opens the files in my VS Code editor. Learning about event handlers and useState hooks in React, and how to code forms in the return block.
 
 ## What I added to the ContactForm.js file.
 I learned how to add a phone number input box, and use regex validation to limit 10 numbers. The symbol:
