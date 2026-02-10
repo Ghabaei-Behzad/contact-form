@@ -35,7 +35,8 @@ and the onChange={handleChange}, receive the data, and errors are styled as red 
 I think that the button event handler could be used to make a tic tac toe game, which is in a React tutorial.  But, I think a personal budget tracker is really simple and lets me add up expenses with local storage which makes me interested in trying it out.
 
 ## screenshot
-<img width="1362" height="685" alt="Assign11A" src="https://github.com/user-attachments/assets/cb62df58-3a57-4cde-9ea6-9f642b34a8a5" />
+<img width="1366" height="697" alt="Assign11A" src="https://github.com/user-attachments/assets/a915be58-ba36-46c3-a682-0749b78b604a" />
+
 
 
 ## This is from the React Code-----------------------------------
