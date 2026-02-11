@@ -6,7 +6,7 @@
 // Feb. 10, 2026
 
 // useState is a React Hook that lets you add a state variable
-// to your component. Use ". code" in bash file to open.
+// to your component. Use "code ." in bash file to open.
 import React, { useState } from 'react';
 
 /*
